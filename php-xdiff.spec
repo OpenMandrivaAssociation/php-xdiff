@@ -15,7 +15,6 @@ Requires:	php-hash
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	libxdiff-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This extension creates and applies patches to both text and binary files.
