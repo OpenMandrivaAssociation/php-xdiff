@@ -5,7 +5,7 @@
 Summary:	File differences/patches
 Name:		php-%{modname}
 Version:	1.4
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/xdiff
@@ -15,7 +15,7 @@ Requires:	php-hash
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	libxdiff-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This extension creates and applies patches to both text and binary files.
