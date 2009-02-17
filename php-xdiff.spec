@@ -5,7 +5,7 @@
 Summary:	File differences/patches
 Name:		php-%{modname}
 Version:	1.5.0
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/xdiff
