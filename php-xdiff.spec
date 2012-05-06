@@ -10,6 +10,7 @@ Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/xdiff
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+Patch0:		xdiff-1.5.1-php54x.diff
 Requires:	php-bz2
 Requires:	php-hash
 BuildRequires:	php-devel >= 3:5.2.0
@@ -24,6 +25,8 @@ This extension creates and applies patches to both text and binary files.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
+
+%patch0 -p0
 
 # fix permissions
 find . -type f | xargs chmod 644
