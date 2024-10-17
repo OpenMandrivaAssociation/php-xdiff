@@ -8,7 +8,7 @@ Version:	1.5.2
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/xdiff
+URL:		https://pecl.php.net/package/xdiff
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires:	php-bz2
 Requires:	php-hash
